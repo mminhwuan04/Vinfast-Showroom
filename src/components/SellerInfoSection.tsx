@@ -22,39 +22,7 @@ export function SellerInfoSection() {
     <section className="lg:py-20 sm:py-14">
       {/* Header */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 gap-3">
-        <div>
-          <h1 className="flex justify-center items-center lg:text-5xl md:text-4xl font-semibold pb-5 sm:text-3xl sm:pt-0 pt-6">
-            CHƯƠNG TRÌNH
-          </h1>
-          <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-6 mb-6 justify-center">
-            <a href={Profile.zalo}
-              target="_blank"
-              rel="noopener noreferrer">
-              <img
-                src="/t11-tr.jpg"
-                alt="Hình qc"
-                className="w-15 h-15 rounded-lg"
-              /></a>
-            <a href={Profile.zalo}
-              target="_blank"
-              rel="noopener noreferrer">
-              <img
-                src="/t11-tl.jpg"
-                alt="Hình qc"
-                className="w-15 h-15 rounded-lg"
-              /></a>
-            <img
-              src="/t11-bl.jpg"
-              alt="Hình qc"
-              className="w-15 h-15 rounded-lg"
-            />
-            <img
-              src="/t11-br.jpg"
-              alt="Hình qc"
-              className="w-15 h-15 rounded-lg"
-            />
-          </div>
-        </div>
+        
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

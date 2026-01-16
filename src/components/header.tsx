@@ -49,6 +49,18 @@ const navigation = [
   //   isDropdown: true,
   //   type: "vf",
   // },
+  {
+    name :"360",
+    href: "/chi-tiet-xe",
+    isDropdown: false,
+    tf: "vf"
+  },
+  {
+    name :"Khuyến mãi",
+    href: "/khuyen-mai",
+    isDropdown: false,
+    tf: "vf"
+  },
   // {
   //   name: "Sản phẩm Green",
   //   href: "/danh-sach-xe-green",

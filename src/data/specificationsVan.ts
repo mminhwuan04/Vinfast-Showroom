@@ -203,7 +203,7 @@ export const VanData: VanModel[] = [
       class="p-3.5 justify-center " />
     </div>`,
     ct21: `<p class="my-3">Thiết kế nội thất tập trung vào sự tiện dụng: ghế ngồi thoải mái, bảng điều khiển gọn gàng, dễ thao tác. Màn hình hiển thị thông tin rõ ràng, hỗ trợ người lái theo dõi tình trạng pin và quãng đường còn lại một cách trực quan.</p>`,
-    ct22: `<p class="my-3">Xe trang bị các tính năng an toàn cơ bản như ABS, EBD, hệ thống hỗ trợ khởi hành ngang dốc và túi khí cho người lái. Hệ thống điều hòa và lọc không khí giúp môi trường cabin luôn dễ chịu trong mọi điều kiện thời tiết.</p>`,
+    ct22: `<p class="my-3">ABS, EBD, hệ thống hỗ trợ khởi hành ngang dốc và túi khí cho người lái. Hệ thống điều hòa và lọc không khí giúp môi trường cabin luôn dễ chịu trong mọi điều kiện thời tiết.</p>`,
     ct23: `<p class="my-3">EC Van là giải pháp vận chuyển tối ưu trong kỷ nguyên xanh – tiết kiệm chi phí vận hành, giảm phát thải CO₂ và tiếng ồn, đồng thời mang lại hình ảnh hiện đại cho doanh nghiệp.</p>`,
     ct24: `<div class="flex basis-1/2">
       <div>
@@ -394,7 +394,7 @@ export const VanData: VanModel[] = [
       class="p-3.5 justify-center " />
     </div>`,
     ct21: `<p class="my-3">Thiết kế nội thất tập trung vào sự tiện dụng: ghế ngồi thoải mái, bảng điều khiển gọn gàng, dễ thao tác. Màn hình hiển thị thông tin rõ ràng, hỗ trợ người lái theo dõi tình trạng pin và quãng đường còn lại một cách trực quan.</p>`,
-    ct22: `<p class="my-3">Xe trang bị các tính năng an toàn cơ bản như ABS, EBD, hệ thống hỗ trợ khởi hành ngang dốc và túi khí cho người lái. Hệ thống điều hòa và lọc không khí giúp môi trường cabin luôn dễ chịu trong mọi điều kiện thời tiết.</p>`,
+    ct22: `<p class="my-3">ABS, EBD, hệ thống hỗ trợ khởi hành ngang dốc và túi khí cho người lái. Hệ thống điều hòa và lọc không khí giúp môi trường cabin luôn dễ chịu trong mọi điều kiện thời tiết.</p>`,
     ct23: `<p class="my-3">EC Van là giải pháp vận chuyển tối ưu trong kỷ nguyên xanh – tiết kiệm chi phí vận hành, giảm phát thải CO₂ và tiếng ồn, đồng thời mang lại hình ảnh hiện đại cho doanh nghiệp.</p>`,
     ct24: `<div class="flex basis-1/2">
       <div>

@@ -18,6 +18,7 @@ import ChiTietXeGreenDetail from "./pages/Green/[id]";
 import DanhSachXeVf from "./pages/DanhSachXeVf";
 import DanhSachXeGreen from "./pages/DanhSachXeGreen";
 import DanhSachXeVan from "./pages/DanhSachXeVan";
+import KhuyenMai from "./pages/KhuyenMai";
 import ChiTietXeVanDetail from "./pages/ECVan.tsx/[id]";
 import Product from "./pages/Product";
 const queryClient = new QueryClient();
@@ -53,6 +54,10 @@ const App = () => (
                 <Route
                   path="/danh-sach-xe-green/:id"
                   element={<ChiTietXeGreenDetail />}
+                />
+                <Route
+                  path="/khuyen-mai"
+                  element={<KhuyenMai />}
                 />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />

@@ -112,7 +112,7 @@ export const vinFastData: VinFastModel[] = [
     charging: "36 phút",
     ava: `<img  class="w-full" src='/asset/VF/VF3/vf3section.png' alt='Ảnh vf3' class='h-[200px]' />`,
     name: "VinFast VF3",
-    tagline: "Xe điện nhỏ gọn thông minh",
+    tagline: "điện nhỏ gọn thông minh",
     description:
       "Thiết kế tối giản, phù hợp đô thị, công nghệ hiện đại với chi phí vận hành tiết kiệm.",
     basePrice: "299.000.000",

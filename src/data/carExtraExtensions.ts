@@ -30,7 +30,7 @@ export const carExtraExtensions: carExtraExtension[] = [
     id: "minio-green",
     name: "Minio Green",
     isFeatured: true,
-    tagline: "Xe điện nhỏ gọn, tiết kiệm",
+    tagline: "điện nhỏ gọn, tiết kiệm",
     description:
       "Mẫu xe điện Minio Green thích hợp cho đô thị, nhỏ gọn, dễ di chuyển.",
     basePrice: "269.000.000 VNĐ",

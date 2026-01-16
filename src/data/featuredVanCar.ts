@@ -30,7 +30,7 @@ export const featuredVanCars: featuredVanCar[] = [
     id: "ec-van-standard",
     name: "EC Van (Tiêu chuẩn)",
     isFeatured: true,
-    tagline: "Xe thương mại điện hiệu quả cho doanh nghiệp",
+    tagline: "thương mại điện hiệu quả cho doanh nghiệp",
     description:
       "VinFast EC Van là mẫu xe thương mại chạy điện thiết kế tối ưu cho vận chuyển hàng hóa và dịch vụ - tiết kiệm chi phí vận hành, thân thiện môi trường.",
     basePrice: "285,000,000 VNĐ",
@@ -76,7 +76,7 @@ export const featuredVanCars: featuredVanCar[] = [
     id: "ec-van-advanced",
     name: "EC Van (Nâng cao)",
     isFeatured: false,
-    tagline: "Xe thương mại điện hiệu quả cho doanh nghiệp",
+    tagline: "thương mại điện hiệu quả cho doanh nghiệp",
     description:
       "VinFast EC Van là mẫu xe thương mại chạy điện thiết kế tối ưu cho vận chuyển hàng hóa và dịch vụ - tiết kiệm chi phí vận hành, thân thiện môi trường.",
     basePrice: "305,000,000 VNĐ",
