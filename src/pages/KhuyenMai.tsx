@@ -101,7 +101,15 @@ function ChargingStationsLayer() {
   const map = useMap();
   const layerRef = useRef<L.LayerGroup | null>(null);
 
+  // ─── CACHE NHẸ ───────────────────────────────
+  const locationCache = useRef<Record<string, any>>({});
+  const builtRef = useRef(false);
+
   useEffect(() => {
+    // Chỉ build 1 lần
+    if (builtRef.current) return;
+    builtRef.current = true;
+
     if (layerRef.current) {
       map.removeLayer(layerRef.current);
       layerRef.current = null;
@@ -109,27 +117,43 @@ function ChargingStationsLayer() {
 
     const group = L.layerGroup();
 
-    stations.forEach((s: any) => {
-      if (!s.lat || !s.lng) return;
+    // ─── RENDER THEO CHUNK ĐỂ KHÔNG BLOCK UI ───
+    const items = [...stations];
+    const CHUNK_SIZE = 40;
 
-      const marker = L.circleMarker([s.lat, s.lng], {
-        radius: 6,
-        color: "#2563eb",
-        weight: 2,
-        fillOpacity: 0.9,
-      });
+    function processChunk() {
+      const chunk = items.splice(0, CHUNK_SIZE);
 
-      const location = findDongNaiCommuneByLatLng(s.lat, s.lng);
+      chunk.forEach((s: any) => {
+        if (!s.lat || !s.lng) return;
 
-      const portsHtml =
-        s.chargingPorts
-          ?.map(
-            (p: any) =>
-              `<div>🔌 ${p.count} × ${p.powerKW} kW</div>`
-          )
-          .join("") ?? "<div>N/A</div>";
+        const marker = L.circleMarker([s.lat, s.lng], {
+          radius: 6,
+          color: "#2563eb",
+          weight: 2,
+          fillOpacity: 0.9,
+        });
 
-      marker.bindPopup(
+        // ─── CACHE vị trí xã ───
+        const cacheKey = `${s.lat}-${s.lng}`;
+        let location = locationCache.current[cacheKey];
+
+        if (!location) {
+          location = findDongNaiCommuneByLatLng(s.lat, s.lng);
+          locationCache.current[cacheKey] = location;
+        }
+
+        const portsHtml =
+          s.chargingPorts
+            ?.map(
+              (p: any) =>
+                `<div>🔌 ${p.count} × ${p.powerKW} kW</div>`
+            )
+            .join("") ?? "<div>N/A</div>";
+
+        // ─── LAZY BIND POPUP (không đổi 1 chữ markup) ───
+        marker.on("click", () => {
+          marker.bindPopup(
         `
         <div style="min-width:260px;font-size:13px;line-height:1.4">
           <strong style="font-size:14px">${s.name}</strong>
@@ -173,10 +197,20 @@ function ChargingStationsLayer() {
           </div>
         </div>
         `
-      );
+          ).openPopup();
+        });
 
-      group.addLayer(marker);
-    });
+        group.addLayer(marker);
+      });
+
+      if (items.length > 0) {
+        (window as any).requestIdleCallback
+          ? (window as any).requestIdleCallback(processChunk)
+          : setTimeout(processChunk, 16);
+      }
+    }
+
+    processChunk();
 
     group.addTo(map);
     layerRef.current = group;
@@ -191,6 +225,7 @@ function ChargingStationsLayer() {
 
   return null;
 }
+
 
 /* =========================
    MAIN COMPONENT
