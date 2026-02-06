@@ -188,7 +188,7 @@ function ChargingStationsLayer() {
             🗺️ ${
               location
                 ? `${location.commune}, ${location.province}`
-                : (s.address ?? "N/A")
+                : ("N/A")
             }
           </div>
 
