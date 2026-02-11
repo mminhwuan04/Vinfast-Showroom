@@ -1,0 +1,891 @@
+{
+  "meta": {
+    "total_expected": 126,
+    "built": 126,
+    "time": "2026-02-10T12:29:28.488Z"
+  },
+  "communes": [
+    {
+      "name": "Phường Hoàn Kiếm",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Cửa Nam",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Ba Đình",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Ngọc Hà",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Giảng Võ",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Hai Bà Trưng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Vĩnh Tuy",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Bạch Mai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Đống Đa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Kim Liên",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Văn Miếu - Quốc Tử Giám",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Láng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Ô Chợ Dừa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Hồng Hà",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Lĩnh Nam",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Hoàng Mai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Vĩnh Hưng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Tương Mai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Định Công",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Hoàng Liệt",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Yên Sở",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Thanh Xuân",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Khương Đình",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Phương Liệt",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Cầu Giấy",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Nghĩa Đô",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Yên Hòa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Tây Hồ",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Phú Thượng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Tây Tựu",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Phú Diễn",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Xuân Đỉnh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Đông Ngạc",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Thượng Cát",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Từ Liêm",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Xuân Phương",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Tây Mỗ",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Đại Mỗ",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Long Biên",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Bồ Đề",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Việt Hưng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Phúc Lợi",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Hà Đông",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Dương Nội",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Yên Nghĩa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Phú Lương",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Kiến Hưng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thanh Trì",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Đại Thanh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Nam Phù",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Ngọc Hồi",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Thanh Liệt",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thượng Phúc",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thường Tín",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Chương Dương",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hồng Vân",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phú Xuyên",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phượng Dực",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Chuyên Mỹ",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Đại Xuyên",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thanh Oai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Bình Minh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Tam Hưng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Dân Hòa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Vân Đình",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Ứng Thiên",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hòa Xá",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Ứng Hòa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Mỹ Đức",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hồng Sơn",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phúc Sơn",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hương Sơn",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Chương Mỹ",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phú Nghĩa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Xuân Mai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Trần Phú",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hòa Phú",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Quảng Bị",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Minh Châu",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Quảng Oai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Vật Lại",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Cổ Đô",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Bất Bạt",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Suối Hai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Ba Vì",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Yên Bài",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Sơn Tây",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Phường Tùng Thiện",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Đoài Phương",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phúc Thọ",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phúc Lộc",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hát Môn",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thạch Thất",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hạ Bằng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Tây Phương",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hòa Lạc",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Yên Xuân",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Quốc Oai",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hưng Đạo",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Kiều Phú",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phú Cát",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Hoài Đức",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Dương Hòa",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Sơn Đồng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã An Khánh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Đan Phượng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Ô Diên",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Liên Minh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Gia Lâm",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thuận An",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Bát Tràng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phù Đổng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thư Lâm",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Đông Anh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Phúc Thịnh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Thiên Lộc",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Vĩnh Thanh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Mê Linh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Yên Lãng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Tiến Thắng",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Quang Minh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Sóc Sơn",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Đa Phúc",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Nội Bài",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Trung Giã",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    },
+    {
+      "name": "Xã Kim Anh",
+      "total_osm_objects": 0,
+      "centroid": null,
+      "osm_ids": [],
+      "raw": []
+    }
+  ]
+}
