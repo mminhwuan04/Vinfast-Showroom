@@ -101,8 +101,6 @@ function ChargingStationsLayer() {
   const map = useMap();
   const layerRef = useRef<L.LayerGroup | null>(null);
 
-  // ─── CACHE NHẸ ───────────────────────────────
-  const locationCache = useRef<Record<string, any>>({});
   const builtRef = useRef(false);
 
   useEffect(() => {
@@ -134,14 +132,7 @@ function ChargingStationsLayer() {
           fillOpacity: 0.9,
         });
 
-        // ─── CACHE vị trí xã ───
-        const cacheKey = `${s.lat}-${s.lng}`;
-        let location = locationCache.current[cacheKey];
 
-        if (!location) {
-          location = findDongNaiCommuneByLatLng(s.lat, s.lng);
-          locationCache.current[cacheKey] = location;
-        }
 
         const portsHtml =
           s.chargingPorts
@@ -185,11 +176,7 @@ function ChargingStationsLayer() {
           <hr style="margin:6px 0"/>
 
           <div>
-            🗺️ ${
-              location
-                ? `${location.commune}, ${location.province}`
-                : ("N/A")
-            }
+            🗺️ ${s.location ?? "N/A"}
           </div>
 
           <div style="margin-top:4px;font-size:11px;color:#666">
